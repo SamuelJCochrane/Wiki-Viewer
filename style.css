@@ -1,0 +1,40 @@
+body {
+	background-color: #7CDBD5;
+	margin: 0px;
+}
+
+#topBar {
+	background-color: #7CDBD5;
+	height: 350px;
+}
+
+.row {
+	height: 150px;
+	padding-top: 15px;
+}
+
+#whiteRow {
+	background-color: white;
+}
+
+a {
+	padding-top: 30px;
+	font-size: 1.3em;
+	color: #F53240;
+	text-decoration: none;
+}
+
+#searchBarDiv {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#resultsContainer div {
+	background-color: white;
+	margin-top: 15px;
+}
+
+#resultsContainer div:hover {
+	background-color: #dbdbdb;
+}
+

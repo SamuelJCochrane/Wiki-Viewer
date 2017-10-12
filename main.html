@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wiki Viewer</title>
+	<meta http-equiv="Content-Type" content="text/plain; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="style.css">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
+<body>
+	<div class="container-fluid" id="topBar"></div>
+	<div class="container-fluid center-text">
+		<div class="row text-center" id="whiteRow">
+			<div class="col-sm-4 hidden-xs"></div>
+			<div class="col-sm-4">
+				<div class="content"><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click here for a random article</a></div>
+				<div class="content" id="searchBarDiv"><input type="text" name="search" id="searchBar"></div>
+				<div class="content"><button class="btn btn primary" type="submit" id="searchButton">Search</button></div>
+			</div>
+			<div class="col-sm-4 hidden-xs"></div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2 hidden-xs"></div>
+			<div class="col-sm-8" id="resultsContainer"></div>
+			<div class="col-sm-2 hidden-xs"></div>
+		</div>
+	</div>
+
+
+
+	<script src="script.js"></script>
+</body>
+
+</html>
