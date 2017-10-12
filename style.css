@@ -36,5 +36,6 @@ a {
 
 #resultsContainer div:hover {
 	background-color: #dbdbdb;
+	cursor: pointer;
 }
 

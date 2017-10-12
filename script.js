@@ -1,6 +1,7 @@
 var searchButton 		= document.getElementById('searchButton'),
  	searchBar 			= document.getElementById('searchBar'),
  	topBar 				= document.getElementById('topBar'),
+ 	form 				= document.getElementById('form')
  	resultsContainer	= document.getElementById('resultsContainer');
 
 
@@ -29,8 +30,8 @@ function getResults(searchText){
 function activate(){
 	if (searchBar.value){
 		topBar.setAttribute('style', 'height:0px');
-		getResults(searchBar.value);};
+		getResults(searchBar.value);
+	};
 }
 
 searchButton.addEventListener('click', activate);
-searchBar.addEventListener('submit', activate)
