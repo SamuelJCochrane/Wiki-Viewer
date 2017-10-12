@@ -15,6 +15,7 @@ function getResults(searchText){
 				var titlesArray = response[1].slice(1);
 				var descripArray = response[2].slice(1);
 				var linkArray = response[3].slice(1);
+				resultsContainer.innerHTML = ""
 				titlesArray.forEach(function(e, i) {
 					resultsContainer
 						.appendChild(document.createElement('div'))
